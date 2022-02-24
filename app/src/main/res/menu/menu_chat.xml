@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <!-- THIS FILE IS STILL UNUSED. IT WILL BE USED TO ADD COMPONENT TO THE ACTIONBAR IN THE CHAT ACTIVITY-->
+
+        <item
+            android:id="@+id/miCompose"
+            android:title="Compose">
+        </item>
+        <item
+            android:id="@+id/miProfile"
+            android:title="Profile">
+        </item>
+</menu>

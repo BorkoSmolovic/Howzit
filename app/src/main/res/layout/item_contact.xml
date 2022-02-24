@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:orientation="horizontal"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    tools:background="@color/babyBlue"
+    >
+
+    <ImageView
+        android:id="@+id/isonline"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="10dp"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        app:srcCompat="@drawable/ic_baseline_person_red_24" />
+
+    <TextView
+        android:id="@+id/contact_name"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:layout_marginStart="5dp"
+        android:textColor="@color/white"
+        android:gravity="left|center"
+        tools:text="Contact name"
+        />
+
+
+    <TextView
+        android:id="@+id/last_message"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="15dp"
+        android:layout_weight="1"
+        android:textColor="@color/white"
+        android:gravity="left|center"
+        tools:text="Message text here"/>
+
+    <ImageView
+        android:id="@+id/newmsg"
+        android:layout_width="22dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="10dp"
+        android:adjustViewBounds="false"
+        android:layout_marginRight="5dp"
+        android:cropToPadding="false"
+        app:srcCompat="@drawable/outline_mark_email_unread_white_18dp" />
+
+</LinearLayout>

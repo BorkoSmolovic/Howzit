@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/signOut"
+        android:title="sign out">
+    </item>
+
+    <item
+        android:id="@+id/addServer"
+        android:title="add server">
+    </item>
+
+    <item
+        android:id="@+id/removeServer"
+        android:title="Remove server">
+    </item>
+</menu>
